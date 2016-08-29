@@ -1,7 +1,7 @@
 {
-  "name": "cnode-h5",
-  "version": "1.0.0",
-  "description": "移动端H5版cnode社区",
+  "name": "cnode-mobile",
+  "version": "0.0.1",
+  "description": "CNode社区的移动端Web",
   "author": "pramper",
   "private": true,
   "scripts": {
