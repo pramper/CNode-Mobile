@@ -1,0 +1,2 @@
+webpackJsonp([6,7],{88:function(o,t){o.exports=" <div id=about> about </div> "},102:function(o,t,e){var p,s;s=e(88),o.exports=p||{},o.exports.__esModule&&(o.exports=o.exports["default"]),s&&(("function"==typeof o.exports?o.exports.options||(o.exports.options={}):o.exports).template=s)}});
+//# sourceMappingURL=6.793a4096d82146db5015.js.map
