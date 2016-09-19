@@ -5,6 +5,7 @@
             <span></span>
             <span></span>
         </div>
+        <p class="header-index">全部</p>
         <v-menu :show-menu.sync="showMenu"></v-menu>
         <div class="mask" v-show="showMenu" @click.stop="hideSideBar"></div>
     </div>
@@ -30,7 +31,7 @@
             },
             hideSideBar() {
                 this.showMenu = !this.showMenu
-                // 隐藏侧边栏时，戒除禁止滚动
+                // 隐藏侧边栏时，解除禁止滚动
                 document.body.classList.toggle("scroll-stop")
             }
         }
@@ -42,15 +43,23 @@
     #header{
         position: fixed;
         z-index: 1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         width: 100%;
         height: 2.5rem;
         background-color: rgba(255, 255, 255, .8);
         border-bottom: 1px solid #ccc;
         box-shadow: 0 .1rem .1rem  #ccc;
+        .header-index{
+            text-align: center;
+            line-height: 2.5rem;
+            font-size: 1.3rem;
+            font-weight: bold;
+            font-family: 黑体;
+            letter-spacing: 1.5rem;
+        }
         .more{
+            position: absolute;
+            left: 0;
+            top: 0;
             display: flex;
             flex-direction: column;
             height: 100%;

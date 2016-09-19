@@ -4,7 +4,7 @@
             :class="item.tab | getTabClass item.top item.good">
         </h3>
         <div class="topic-brief">
-            <img :src="item.author.avatar_url" class="topic-author-avatar">
+            <img class="topic-author-avatar" v-lazy="item.author.avatar_url">
             <div class="topic-brief-info">
                 <p>
                     <span v-text="item.author.loginname"></span>

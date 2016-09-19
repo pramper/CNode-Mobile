@@ -10,7 +10,15 @@
 
 ![](http://oa7d6dxqt.bkt.clouddn.com/cnode-mobile1472460816.png)
 
-持续更新中...
+## 持续更新中...
+
+### v0.0.1
+
+发布第一版
+
+### v0.0.2
+
+利用插件[vue-lazyload](https://github.com/hilongjw/vue-lazyload)实现图片懒加载，加快首屏渲染速度。
 
 ## Build Setup
 
